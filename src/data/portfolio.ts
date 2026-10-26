@@ -33,163 +33,97 @@ export interface SocialLink {
 }
 
 export const personalInfo = {
-  name: "Your Name",
-  title: "Full Stack Developer",
-  tagline: "Building scalable web applications with modern technologies",
-  bio: "I'm a passionate full-stack developer with experience in building scalable web applications. I love working with modern JavaScript/TypeScript ecosystems and have a strong focus on clean code, performance, and developer experience.",
-  email: "your.email@example.com",
-  location: "Your City, Country",
+  name: "Aditya Pawar",
+  title: "Computer Engineering Student | Aspiring Cybersecurity Researcher",
+  tagline: "Building intelligent systems, exploring cybersecurity, and turning ambitious ideas into reality.",
+  bio: "I'm a Computer Engineering student at VIT Pune passionate about ethical hacking, cybersecurity, artificial intelligence, and software development. I enjoy building innovative projects that combine security research, intelligent systems, and creative engineering. I'm constantly learning, experimenting with new technologies, and working toward becoming a skilled cybersecurity professional.",
+  email: "adpawar06@gmail.com",
+  location: "Pune, Maharashtra, India",
   resumeUrl: "#",
 };
 
 export const projects: Project[] = [
   {
     id: "1",
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce platform with payment integration, inventory management, and admin dashboard.",
-    longDescription: "Built a complete e-commerce solution with Next.js, featuring user authentication, product management, shopping cart, Stripe payment integration, order tracking, and an admin dashboard for managing products and orders.",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Stripe", "Tailwind CSS"],
-    githubUrl: "https://github.com/yourusername/ecommerce",
-    liveUrl: "https://ecommerce-demo.vercel.app",
+    title: "Breakline",
+    description: "A cybersecurity-focused project exploring security analysis, threat detection, and identifying potential vulnerabilities.",
+    longDescription: "Breakline focuses on cybersecurity research and practical security engineering. The project explores security testing, threat analysis, and tools designed to help understand and identify potential weaknesses in systems.",
+    tags: ["Cybersecurity", "Ethical Hacking", "Security Research"],
+    githubUrl: "#",
+    liveUrl: "#",
     featured: true,
   },
   {
     id: "2",
-    title: "Task Management App",
-    description: "Real-time collaborative task management application with drag-and-drop boards.",
-    longDescription: "A Trello-like application with real-time updates using WebSockets, featuring boards, lists, cards, labels, due dates, and team collaboration.",
-    tags: ["React", "Node.js", "Socket.io", "MongoDB", "Express", "TypeScript"],
-    githubUrl: "https://github.com/yourusername/taskmanager",
-    liveUrl: "https://taskmanager-demo.vercel.app",
+    title: "ZERO — AI Desktop Assistant",
+    description: "A futuristic AI assistant designed to bring intelligent conversations, automation, memory, and voice interaction into the desktop environment.",
+    longDescription: "ZERO is a modular AI assistant inspired by futuristic personal assistants. It explores conversational intelligence, persistent memory, voice interaction, desktop automation, and specialized AI agents. The long-term vision is to create an extensible assistant capable of understanding requests, managing context, and executing useful tasks through an intelligent desktop experience.",
+    tags: ["Python", "Large Language Models", "Groq", "Ollama", "PostgreSQL", "pgvector", "Voice Processing", "Desktop Automation"],
+    githubUrl: "#",
+    liveUrl: "#",
     featured: true,
   },
   {
     id: "3",
-    title: "Weather Dashboard",
-    description: "Beautiful weather application with forecasts, maps, and location-based alerts.",
-    longDescription: "A weather dashboard integrating multiple APIs for current conditions, 7-day forecasts, interactive maps, and severe weather alerts with geolocation support.",
-    tags: ["React", "TypeScript", "Weather API", "Mapbox", "Chart.js"],
-    githubUrl: "https://github.com/yourusername/weather-dashboard",
-    liveUrl: "https://weather-demo.vercel.app",
-    featured: false,
-  },
-  {
-    id: "4",
-    title: "Developer Portfolio Template",
-    description: "Open-source portfolio template for developers with blog and project showcase.",
-    longDescription: "A modern, accessible portfolio template built with Next.js 14, featuring MDX blog support, project filtering, dark mode, and SEO optimization.",
-    tags: ["Next.js", "TypeScript", "MDX", "Tailwind CSS", "Framer Motion"],
-    githubUrl: "https://github.com/yourusername/portfolio-template",
-    liveUrl: "https://portfolio-template.vercel.app",
+    title: "Orbit",
+    description: "A modern web development project focused on interactive user interfaces, creative visual design, and smooth animations.",
+    longDescription: "Orbit explores modern frontend development through interactive components, polished user experiences, and engaging visual effects. The project focuses on creating a visually distinctive interface with thoughtful design, responsive layouts, and smooth animations using modern web technologies.",
+    tags: ["React", "TypeScript", "JavaScript", "Tailwind CSS", "GSAP"],
+    githubUrl: "#",
+    liveUrl: "#",
     featured: true,
-  },
-  {
-    id: "5",
-    title: "API Gateway Service",
-    description: "Microservices API gateway with rate limiting, authentication, and monitoring.",
-    longDescription: "A production-ready API gateway built with Go, featuring JWT authentication, rate limiting, request/response transformation, circuit breaker pattern, and Prometheus metrics.",
-    tags: ["Go", "Docker", "Kubernetes", "Prometheus", "Redis", "NGINX"],
-    githubUrl: "https://github.com/yourusername/api-gateway",
-    featured: false,
-  },
-  {
-    id: "6",
-    title: "Real-time Chat Application",
-    description: "End-to-end encrypted chat application with file sharing and video calls.",
-    longDescription: "A secure messaging application with end-to-end encryption, supporting direct messages, group chats, file sharing, voice messages, and WebRTC video calls.",
-    tags: ["React Native", "Node.js", "WebRTC", "Signal Protocol", "PostgreSQL", "Redis"],
-    githubUrl: "https://github.com/yourusername/chat-app",
-    featured: false,
   },
 ];
 
 export const skills: Skill[] = [
-  // Frontend
-  { name: "React", category: "frontend", proficiency: 5 },
-  { name: "Next.js", category: "frontend", proficiency: 5 },
-  { name: "TypeScript", category: "frontend", proficiency: 5 },
-  { name: "Tailwind CSS", category: "frontend", proficiency: 5 },
-  { name: "Vue.js", category: "frontend", proficiency: 3 },
-  { name: "Svelte", category: "frontend", proficiency: 3 },
-  { name: "HTML/CSS", category: "frontend", proficiency: 5 },
-  { name: "Framer Motion", category: "frontend", proficiency: 4 },
+  // Programming Languages
+  { name: "Python", category: "backend", proficiency: 5 },
+  { name: "C++", category: "backend", proficiency: 4 },
+  { name: "JavaScript", category: "frontend", proficiency: 4 },
+  { name: "TypeScript", category: "frontend", proficiency: 4 },
 
-  // Backend
-  { name: "Node.js", category: "backend", proficiency: 5 },
-  { name: "Express.js", category: "backend", proficiency: 5 },
-  { name: "PostgreSQL", category: "backend", proficiency: 4 },
-  { name: "MongoDB", category: "backend", proficiency: 4 },
-  { name: "Prisma", category: "backend", proficiency: 4 },
-  { name: "GraphQL", category: "backend", proficiency: 3 },
-  { name: "REST APIs", category: "backend", proficiency: 5 },
-  { name: "Go", category: "backend", proficiency: 3 },
-
-  // DevOps
-  { name: "Docker", category: "devops", proficiency: 4 },
-  { name: "Kubernetes", category: "devops", proficiency: 3 },
-  { name: "AWS", category: "devops", proficiency: 3 },
-  { name: "Vercel", category: "devops", proficiency: 5 },
-  { name: "GitHub Actions", category: "devops", proficiency: 4 },
-  { name: "CI/CD", category: "devops", proficiency: 4 },
+  // Cybersecurity
+  { name: "Ethical Hacking Fundamentals", category: "devops", proficiency: 4 },
   { name: "Linux", category: "devops", proficiency: 4 },
+  { name: "Networking Fundamentals", category: "devops", proficiency: 3 },
+  { name: "Web Application Security", category: "devops", proficiency: 3 },
+  { name: "Security Research", category: "devops", proficiency: 3 },
 
-  // Tools
+  // Development
+  { name: "React", category: "frontend", proficiency: 4 },
+  { name: "HTML", category: "frontend", proficiency: 5 },
+  { name: "CSS", category: "frontend", proficiency: 5 },
+  { name: "Tailwind CSS", category: "frontend", proficiency: 4 },
+  { name: "Flask", category: "backend", proficiency: 3 },
+  { name: "REST APIs", category: "backend", proficiency: 4 },
+
+  // AI and Machine Learning
+  { name: "Large Language Models", category: "other", proficiency: 4 },
+  { name: "AI Agent Development", category: "other", proficiency: 3 },
+  { name: "Machine Learning Fundamentals", category: "other", proficiency: 3 },
+  { name: "Groq", category: "other", proficiency: 3 },
+  { name: "Ollama", category: "other", proficiency: 3 },
+
+  // Databases
+  { name: "MySQL", category: "backend", proficiency: 3 },
+  { name: "PostgreSQL", category: "backend", proficiency: 3 },
+  { name: "MongoDB", category: "backend", proficiency: 3 },
+  { name: "pgvector", category: "backend", proficiency: 2 },
+
+  // Tools and Platforms
   { name: "Git", category: "tools", proficiency: 5 },
+  { name: "GitHub", category: "tools", proficiency: 4 },
   { name: "VS Code", category: "tools", proficiency: 5 },
-  { name: "Figma", category: "tools", proficiency: 3 },
-  { name: "Postman", category: "tools", proficiency: 4 },
-  { name: "Jest/Vitest", category: "tools", proficiency: 4 },
-  { name: "ESLint/Prettier", category: "tools", proficiency: 5 },
+  { name: "Linux", category: "tools", proficiency: 4 },
+  { name: "Omarchy Linux", category: "tools", proficiency: 3 },
+  { name: "ESP32", category: "tools", proficiency: 3 },
 ];
 
-export const experience: Experience[] = [
-  {
-    id: "1",
-    company: "Tech Company Inc.",
-    role: "Senior Full Stack Developer",
-    period: "2022 - Present",
-    description: "Leading frontend architecture and development for core product features.",
-    achievements: [
-      "Led migration from legacy React codebase to Next.js 14 App Router",
-      "Improved application performance by 40% through code splitting and optimization",
-      "Mentored 3 junior developers and established code review practices",
-      "Designed and implemented a component library used across 5 products",
-    ],
-    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma"],
-  },
-  {
-    id: "2",
-    company: "StartupXYZ",
-    role: "Full Stack Developer",
-    period: "2020 - 2022",
-    description: "Built and maintained multiple client projects and internal tools.",
-    achievements: [
-      "Developed 10+ client projects from concept to deployment",
-      "Implemented CI/CD pipelines reducing deployment time by 60%",
-      "Built internal developer tools improving team productivity by 30%",
-      "Architected microservices infrastructure for scalable applications",
-    ],
-    technologies: ["React", "Node.js", "TypeScript", "Docker", "AWS", "MongoDB"],
-  },
-  {
-    id: "3",
-    company: "Digital Agency",
-    role: "Frontend Developer",
-    period: "2018 - 2020",
-    description: "Created responsive websites and web applications for diverse clients.",
-    achievements: [
-      "Delivered 20+ responsive websites with cross-browser compatibility",
-      "Implemented accessibility standards (WCAG 2.1 AA) across all projects",
-      "Collaborated with designers to create pixel-perfect implementations",
-      "Optimized Core Web Vitals scores for all client sites",
-    ],
-    technologies: ["React", "Vue.js", "HTML/CSS", "JavaScript", "WordPress", "SASS"],
-  },
-];
+export const experience: Experience[] = [];
 
 export const socialLinks: SocialLink[] = [
-  { name: "GitHub", url: "https://github.com/yourusername", icon: "github" },
-  { name: "LinkedIn", url: "https://linkedin.com/in/yourusername", icon: "linkedin" },
-  { name: "Twitter", url: "https://twitter.com/yourusername", icon: "twitter" },
-  { name: "Email", url: "mailto:your.email@example.com", icon: "mail" },
+  { name: "GitHub", url: "https://github.com/adpawar06", icon: "github" },
+  { name: "LinkedIn", url: "https://linkedin.com/in/adpawar06", icon: "linkedin" },
+  { name: "Twitter", url: "https://twitter.com/adpawar06", icon: "twitter" },
+  { name: "Email", url: "mailto:adpawar06@gmail.com", icon: "mail" },
 ];
